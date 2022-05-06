@@ -1,0 +1,201 @@
+---
+output:
+  bookdown::pdf_document2:
+    toc: no
+    # latex_engine: xelatex
+mainfont: Times New Roman #Arial
+bibliography:  example.bib 
+urlcolor: black
+linkcolor: black
+fig_caption: true
+keep_tex: yes
+link-citations: yes
+fontsize: 12pt
+geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
+csl: apa.csl # American Psychological Association 7th edition(2022-01-31 14:43:56) # https://www.zotero.org/styles?q=apa
+header-includes:
+- \usepackage{placeins}
+- \usepackage{fancyhdr}
+- \usepackage{setspace}
+- \usepackage{chngcntr}
+- \usepackage{float}
+- \usepackage{placeins}
+- \usepackage{fancyhdr}
+- \usepackage{setspace}
+- \usepackage{chngcntr}
+- \floatplacement{figure}{H}
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{multirow}
+- \usepackage{wrapfig}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem} 
+- \usepackage{makecell}
+- \usepackage{xcolor}
+- \usepackage{pdfpages}   
+- \pagestyle{fancy}
+- \usepackage{pdfpages}
+- \usepackage{subfig}
+- \usepackage[defaultlines=4,all]{nowidow}
+- \usepackage{setspace}
+- \usepackage[bottom]{footmisc}
+- \usepackage{hyperref}
+- \usepackage[font={small}, labelfont={bf}]{caption}
+- \usepackage{lscape}
+- \newcommand{\blandscape}{\begin{landscape}}
+- \newcommand{\elandscape}{\end{landscape}}
+- \usepackage{longtable}
+---
+
+
+
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.path = 'figures/',
+                      echo = F, warning = FALSE, message = FALSE)
+# options(scipen = 1, digits = 3) #set to two decimal 
+```
+
+
+
+
+```{r}
+#tinytex::install_tinytex() #install tinytex first - just remove the #in front
+library(tinytex)
+```
+
+<!-- ```{r setup, include=FALSE, cache=FALSE} -->
+<!-- options(scipen = 1, digits = 3) #set to two decimal  -->
+<!-- ``` -->
+
+
+```{r warning=TRUE, include=FALSE}
+library(knitr)
+```
+
+
+
+
+
+\pagenumbering{gobble}
+\renewcommand{\headrulewidth}{0.0pt}
+\onehalfspacing
+
+
+```{r child = '0.1_titlepage.Rmd'}
+```
+
+\newpage
+\pagestyle{fancy}
+
+\fancyhead[LE,RO]{Your Name} 
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+\pagenumbering{roman}
+\fancyhead[LO,RE]{Abstract}
+
+
+```{r child = '0.2_abstract.Rmd'}
+```
+
+\newpage
+
+
+\fancyhead[LO,RE]{\nouppercase{\leftmark}}
+\fancyhead[LO,RE]{Contents}
+
+\pagenumbering{roman}
+\newpage
+
+
+<!-- \fancyhead[CO,CE]{Table of Contents} -->
+\setcounter{tocdepth}{3}
+\tableofcontents
+\newpage
+
+
+
+
+\fancyhead[LO,RE]{List of Abbreviations}
+
+```{r child = '0.1_list_of_abbreviations.Rmd'}
+```
+\newpage
+
+
+\fancyhead[LO,RE]{List of Tables}
+
+\listoftables
+\newpage
+
+
+
+
+\fancyhead[LO,RE]{List of Figures}
+\listoffigures
+\newpage
+
+
+<!-- \newgeometry{top=2cm,bottom=2cm,right=6cm,left=2cm} -->
+
+
+\fancyhead[LO,RE]{Outline}
+
+\pagenumbering{arabic}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[LO,RE]{\nouppercase{\leftmark}}
+
+
+
+
+\newpage
+\onehalfspacing
+
+
+```{r child = '1.0_analysis.Rmd'}
+```
+
+\newpage
+
+\fancyhead[LO,RE]{References}
+\section*{References}
+\addcontentsline{toc}{section}{References}
+<!-- \fancyhead[CO,CE]{References} -->
+
+
+<div id="refs"></div>
+
+
+\newpage
+\fancyhead[LO,RE]{Annex}
+\section*{Annex}
+\addcontentsline{toc}{section}{Annex}
+
+
+
+```{r child = '10.0_Annex.Rmd'}
+```
+
+
+\newpage
+
+\fancyhead[LO,RE]{Declaration of Authenticity}
+
+\section*{Declaration of Authenticity}
+\addcontentsline{toc}{section}{Declaration of Authenticity}
+<!-- \fancyhead[CO,CE]{Declaration of Authenticity} -->
+
+
+I, *Your name*, hereby declare that the work presented herein is my own work completed without the use of any aids other than those listed. Any material from other sources or works done by others has been given due acknowledgment and listed in the reference section. Sentences or pats of sentences quoted literally are marked as quotations. The work presented herein has not been published or submitted elsewhere for assessment in the same or a similar form. I will retain a copy of this assignment until after the Board of Examiners has published the results, which I will make available on request.
+
+
+```{r echo="FALSE"}
+knitr::include_graphics("./sig1.png",dpi = 300)
+```

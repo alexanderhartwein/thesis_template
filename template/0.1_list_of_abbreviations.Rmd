@@ -1,0 +1,31 @@
+---
+output:
+  bookdown::pdf_document2:
+    toc: no
+#    latex_engine: xelatex
+mainfont: Arial
+urlcolor: black
+linkcolor: black
+fig_caption: true
+link-citations: yes
+fontsize: 12pt
+geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
+---
+
+```{r include=FALSE}
+library(openxlsx)
+library(kableExtra)
+toa<-read.xlsx("./0.1_list_of_abbreviations.xlsx",colNames = F,sheet = "used")
+```
+
+# List of Abbreviations {.unlisted .unnumbered}
+
+
+```{r}
+kable(toa, col.names = NULL,format = "latex", longtable = T, booktabs = F) %>% 
+  kable_styling(full_width = NULL, bootstrap_options = "none") %>%
+  column_spec(1, width = "5em",border_left = T,border_right = F) %>% 
+  column_spec(2, width = "30em",border_left = F,border_right = T)
+save.image("toa.RData")
+```
+
