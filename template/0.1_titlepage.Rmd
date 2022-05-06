@@ -1,0 +1,51 @@
+---
+output: pdf_document
+geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
+
+---
+
+\linespread{1}\selectfont
+
+\begin{centering}
+\normalsize
+HOCHSCHULE RHEIN-WAAL \\
+RHINE-WAAL UNIVERSITY OF APPLIED  SCIENCES\\
+FACULTY OF SOCIETY AND ECONOMICS
+
+
+\vspace{3 cm}
+Add your main title here \\ and the sub title here\\
+\vspace{1.5 cm}
+
+
+
+
+M\--SD\_3 7120 Applied Project in International Development Cooperation  \\  WS 21/22\\
+Project report
+\vspace{0.5 cm}
+
+
+
+
+
+\vspace{3 cm}
+
+by\\
+Your name\\
+Your immatriculationnumber
+
+\vspace{3 cm}
+Supervised by:\\
+Your supervisor 
+
+
+\vspace{1 cm}
+
+
+Submission Date:\\
+YYYY-MM-DD
+
+ 
+
+\end{centering}
+
