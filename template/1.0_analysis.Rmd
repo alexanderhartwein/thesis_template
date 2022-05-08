@@ -55,7 +55,59 @@ library(cobalt)
 
 
 
-# Header 
+# Introduction
+
+[The fill text is from this link](https://www.scribbr.com/category/dissertation/)
+
+
+In the introduction, set up your dissertation’s topic, purpose, and relevance, and tell the reader what to expect in the rest of the text.
+
+Establish your research topic:
+
+-	Introduce your broad topic in an engaging way.
+-	Provide relevant background information to contextualize your work.
+
+Narrow down the focus:
+
+-	Go into more detail about the specific area you’ll be focusing on.
+-	Define the scope of the research.
+
+Discuss existing research:
+
+-	Briefly discuss the current state of knowledge on your topic.
+-	Show your work’s relevance to a broader problem or debate.
+
+Research questions and objectives:
+
+-	State the questions you set out to answer in your dissertation.
+-	Describe your concrete objectives in conducting the research.
+
+Overview:
+
+-	Give an overview of the structure of the rest of the dissertation.
+-	Use the present tense, e.g. “Chapter 4 discusses…”
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This is just a short example of a text for proper citing. An other test line.
 
@@ -77,62 +129,153 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 
 
+\newpage
+# Literature Review
 
-# Heading 
+In the literature review, you survey existing research on your topic, developing a coherent structure and argument that leads to a clear basis or justification for your own approach.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+Survey the literature:
 
+-	Describe how much research has been done into your topic, and what kinds.
+-	Synthesize key findings from relevant studies.
+-	Assess the strengths and weaknesses of previous research.
+-	Highlight any gaps or limitations in existing research.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+Show how your research does one or more of the following:
 
+-	Addresses a gap in the literature.
+-	Takes a new theoretical or methodological approach to the topic.
+-	Proposes a solution to an unresolved problem.
+-	Builds on and strengthens existing knowledge with new data.
+-	Advances a theoretical debate.
 
+Present the theoretical framework:
 
-
-# Heading
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-
-## Subheading
-
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-
+-	Discuss the theory that informs your research.
+-	Define key terms and explain relevant concepts.
+-	Present any relevant models that help interpret your findings.
 
 
 
+\newpage
+# Methodology
+
+The methodology chapter describes exactly how you collected and analyzed your data, allowing your reader to assess the validity of your findings.
+
+Introduce your overall approach:
+
+-	Is your research qualitative or quantitative (or a combination of both)?
+-	What type of research design did you use (e.g. longitudinal, experimental, case study, ethnography…)?
+-	The specific terms you use to describe your approach should follow the conventions of your field.
+
+Give the details:
+
+-	Where, when, and with whom the research took place (including your sampling methods if relevant).
+-	Your methods of collecting data (e.g. interviews, surveys, archives).
+-	Your methods of analyzing data (e.g. statistical analysis, discourse analysis).
+-	Tools and materials you used (e.g. computer programs, lab equipment).
+
+Evaluate your methods:
+
+-	Discuss any noteworthy obstacles you faced in conducting the research and how you overcame them.
+-	Assess whether your approach was effective overall.
+-	If you used novel or unconventional methods, justify why this was the best approach to answering your research question. 
+
+
+## Origin of data
+
+
+\newpage
+# Results
+
+The results section is where you list the findings of your research. Report the results concisely and objectively, without interpreting their meaning.
+In some types of qualitative research, the results and discussion sections may be combined.
+
+Presenting quantitative results:
+
+-	Structure the results around your research questions or hypotheses. 
+-	Report all results that are relevant to your questions, including any that didn’t fit with your expectations.
+
+For each question or hypothesis:
+
+-	Summarize the relevant results, including descriptive statistics and the results of any statistical tests used.
+-	Briefly state how the result relates to the question or whether the hypothesis was supported.
+-	Don’t give subjective interpretations or speculation.
+
+Tables and figures:
+
+-	Include tables and figures if they help the reader understand your results.
+-	Tables can be used to present exact values in a concise overview.
+-	Graphs and charts can be used to visualize patterns and relationships.
+-	Refer to all tables and figures in the text, and give them clear titles and labels.
+
+Presenting qualitative results:
+
+-	Structure the results around research questions or key themes.
+-	Make general observations about what the data showed.
+-	Mention recurring points of agreement or disagreement, patterns and trends.
+-	Highlight individual responses that were particularly noteworthy.
+-	Support with direct quotations.
 
 
 
 
 
 
+## Model 1
+
+## Model 2
+
+## Model 3
+\newpage
+# Discussion
+
+The discussion chapter is where you delve into the meaning and relevance of your results. Give your own interpretations and cite relevant sources to put your results in context.
+
+Interpret your results:
+
+-	What do the results tell us?
+-	Did they meet your expectations? If not, why might that be?
+-	Are there any alternative explanations for your findings?
+
+Discuss the implications:
+
+-	Are the results consistent with previous studies?
+-	Do the results support or challenge an existing theory?
+-	Why do these results matter?
+-	Are there any practical implications?
+
+Acknowledge the limitations:
+
+-	What can the results not tell us?
+-	Does the data have limited generalizability (e.g. due to your methods or sample size)?
+-	Are there any potentially relevant variables that you didn’t take into account?
 
 
+\newpage
+# Conclusion
 
 
+The conclusion is the last part of your main text. It’s where you wrap up your dissertation, summarizing your main findings and recommendations. No new information or arguments should appear in the conclusion.
+
+Answer the main research question:
+
+-	Clearly and concisely state the overall conclusion that your research has led you to.
+
+Reflect on the research:
+
+-	To what extent was your approach effective in answering your questions?
+-	Did the research raise any new questions or unexpected insights?
+
+Make recommendations:
+
+-	You can make recommendations for practice (e.g. in business or policy) or for future research.
+-	Frame practical recommendations as suggestions, not instructions.
+-	Be specific about research recommendations, explaining how future studies can build on your conclusions.
 
 
+Emphasize your contribution:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Conclusion 
+-	Show what new knowledge you have contributed.
+-	Leave the reader with a clear impression of why your research matters.
 
