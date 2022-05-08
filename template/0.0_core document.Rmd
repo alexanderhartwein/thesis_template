@@ -2,6 +2,7 @@
 output:
   bookdown::pdf_document2:
     toc: no
+    latex_engine: xelatex
 mainfont: Arial
 bibliography:  example.bib 
 urlcolor: black
@@ -54,10 +55,18 @@ header-includes:
 
 
 
+
+
+
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(fig.path = 'figures/',
                       echo = F, warning = FALSE, message = FALSE)
 # options(scipen = 1, digits = 3) #set to two decimal 
+```
+
+
+```{r}
+knitr::opts_chunk$set(out.width="15cm", dpi=300,fig.align = "center")
 ```
 
 
@@ -100,7 +109,7 @@ library(knitr)
 \newpage
 \pagestyle{fancy}
 
-\fancyhead[LE,RO]{Your Name} 
+\fancyhead[LE,RO]{} 
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
@@ -203,6 +212,6 @@ library(knitr)
 I, *Your name*, hereby declare that the work presented herein is my own work completed without the use of any aids other than those listed. Any material from other sources or works done by others has been given due acknowledgment and listed in the reference section. Sentences or pats of sentences quoted literally are marked as quotations. The work presented herein has not been published or submitted elsewhere for assessment in the same or a similar form. I will retain a copy of this assignment until after the Board of Examiners has published the results, which I will make available on request.
 
 
-```{r echo=FALSE, fig.align='lef', message=FALSE, warning=FALSE, out.width="400px"}
+```{r echo=FALSE, fig.align='lef', message=FALSE, warning=FALSE}
 knitr::include_graphics("./sig1.png",dpi = 300)
 ```
