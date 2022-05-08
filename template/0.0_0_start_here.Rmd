@@ -1,0 +1,11 @@
+
+```{r}
+#tinytex::install_tinytex() #install tinytex first - just remove the #in front
+library(tinytex)
+```
+
+
+```{r warning=TRUE, include=FALSE}
+#install.packages("knitr")
+library(knitr)
+```
