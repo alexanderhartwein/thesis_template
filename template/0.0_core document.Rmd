@@ -196,6 +196,6 @@ library(knitr)
 I, *Your name*, hereby declare that the work presented herein is my own work completed without the use of any aids other than those listed. Any material from other sources or works done by others has been given due acknowledgment and listed in the reference section. Sentences or pats of sentences quoted literally are marked as quotations. The work presented herein has not been published or submitted elsewhere for assessment in the same or a similar form. I will retain a copy of this assignment until after the Board of Examiners has published the results, which I will make available on request.
 
 
-```{r echo="FALSE"}
+```{r echo=FALSE, fig.align='lef', message=FALSE, warning=FALSE, out.width="400px"}
 knitr::include_graphics("./sig1.png",dpi = 300)
 ```
