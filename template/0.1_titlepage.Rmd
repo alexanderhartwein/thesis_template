@@ -13,14 +13,16 @@ FACULTY OF SOCIETY AND ECONOMICS
 
 
 \vspace{3 cm}
-Add your main title here \\ and the sub title here\\
+MAIN TITLE \\ SUBTITLE\\
 \vspace{1.5 cm}
 
 
+A thesis Submitted in \\
+Partial Fulfilment of the\\
+Requirements of the Degree of \\
+\vspace{0.5 cm}
 
-
-M\--SD\_3 7120 Applied Project in International Development Cooperation  \\  WS 21/22\\
-Project report
+Master of Arts \\  in\\ Sustainable Development Management\\
 \vspace{0.5 cm}
 
 

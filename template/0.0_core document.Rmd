@@ -2,8 +2,7 @@
 output:
   bookdown::pdf_document2:
     toc: no
-    # latex_engine: xelatex
-mainfont: Times New Roman #Arial
+mainfont: Arial
 bibliography:  example.bib 
 urlcolor: black
 linkcolor: black
