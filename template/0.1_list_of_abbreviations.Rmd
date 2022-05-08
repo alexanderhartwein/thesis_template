@@ -26,6 +26,5 @@ kable(toa, col.names = NULL,format = "latex", longtable = T, booktabs = F) %>%
   kable_styling(full_width = NULL, bootstrap_options = "none") %>%
   column_spec(1, width = "5em",border_left = T,border_right = F) %>% 
   column_spec(2, width = "30em",border_left = F,border_right = T)
-save.image("toa.RData")
 ```
 
