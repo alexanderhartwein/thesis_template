@@ -1,6 +1,5 @@
 ---
 output: pdf_document
-geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
 ---
 
 \linespread{1}\selectfont
@@ -32,12 +31,13 @@ Master of Arts \\  in\\ Sustainable Development Management\\
 \vspace{3 cm}
 
 by\\
-Your name\\
-Your immatriculationnumber
+Your Name\\
+Your matriculationnumber
 
 \vspace{3 cm}
 Supervised by:\\
-Your supervisor 
+Supervisor 1\\
+Supervisor 1
 
 
 \vspace{1 cm}

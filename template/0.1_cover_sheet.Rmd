@@ -1,6 +1,5 @@
 ---
 output: pdf_document
-geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
 ---
 
 \linespread{1}\selectfont
@@ -12,25 +11,24 @@ RHINE-WAAL UNIVERSITY OF APPLIED  SCIENCES\\
 FACULTY OF SOCIETY AND ECONOMICS
 
 
-\vspace{3 cm}
+\vspace{5 cm}
 THIS IS WHERE YOUR TITLE SHOUD BE \\ AND SUBTITLE RIGHTE BELOW THE TITLE\\
-\vspace{1.5 cm}
+\vspace{5 cm}
 
 
 
 
 MASTER THESIS
-\vspace{0.5 cm}
 
 
 
 
 
-\vspace{3 cm}
 
-by\\
-Your name\\
-Your immatriculationnumber
+\vspace{8 cm}
+
+BY\\
+YOUR NAME
 
 
  
