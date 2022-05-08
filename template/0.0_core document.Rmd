@@ -11,7 +11,7 @@ fig_caption: true
 keep_tex: yes
 link-citations: yes
 fontsize: 12pt
-geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
+geometry: left=4cm, right=2cm, top=2cm, bottom=2cm
 csl: apa.csl # American Psychological Association 7th edition(2022-01-31 14:43:56) # https://www.zotero.org/styles?q=apa
 header-includes:
 - \usepackage{placeins}

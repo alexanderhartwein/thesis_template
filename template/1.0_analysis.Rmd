@@ -10,7 +10,6 @@ linkcolor: black
 fig_caption: true
 link-citations: yes
 fontsize: 12pt
-geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
 csl: apa.csl
 ---
 
