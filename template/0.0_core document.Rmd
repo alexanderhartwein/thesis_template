@@ -87,6 +87,14 @@ library(knitr)
 \onehalfspacing
 
 
+
+
+```{r child = '0.1_cover_sheet.Rmd'}
+```
+
+\newpage
+
+
 ```{r child = '0.1_titlepage.Rmd'}
 ```
 
