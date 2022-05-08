@@ -6,7 +6,8 @@ This repository is a showing an example of a scientific paper in R-Markdown and 
 3. Open the start here file in the template folder in order to load the most fundamental packages.
 4. Open the template folder and open the file 0.0_core document.Rmd
 5. Next to Knit - change the Knit Directory to Project Directory in order to use the relative paths of the document
-6. And now there is the first document created which should look like a first thesis.
+6. Click on Knit to pdf_document2 to create your first pdf file.
+7. And now there is the first document created which should look like a first thesis.
 
 Best of success for developing your own project. 
 
